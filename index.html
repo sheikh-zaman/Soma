@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Soma — Analog Digital Detox Kits</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-bar text-center py-2">
+      <p class="mb-0 small text-uppercase letter-spaced">
+        Your monthly invitation to log off.
+      </p>
+    </header>
+
+    <nav class="container py-4 d-flex justify-content-between align-items-center">
+      <div class="d-flex align-items-center gap-3">
+        <div class="hand-icon" aria-hidden="true">
+          <div class="hand palm"></div>
+          <div class="hand thumb"></div>
+          <div class="wood-power">
+            <span class="power-symbol">⭘</span>
+          </div>
+        </div>
+        <div>
+          <h1 class="h4 mb-0 brand-title">Soma</h1>
+          <small class="text-muted">Analog Kits for Digital Detox</small>
+        </div>
+      </div>
+      <div class="d-none d-md-flex gap-4">
+        <a href="#hero" class="nav-link">Kits</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#archive" class="nav-link">Archive</a>
+        <a href="#unboxing" class="nav-link">Unboxing</a>
+      </div>
+      <button class="btn btn-outline-dark d-md-none" data-bs-toggle="offcanvas" data-bs-target="#navDrawer">
+        Menu
+      </button>
+    </nav>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="navDrawer">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Soma</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body d-flex flex-column gap-3">
+        <a href="#hero" class="nav-link" data-bs-dismiss="offcanvas">Kits</a>
+        <a href="#features" class="nav-link" data-bs-dismiss="offcanvas">Features</a>
+        <a href="#archive" class="nav-link" data-bs-dismiss="offcanvas">Archive</a>
+        <a href="#unboxing" class="nav-link" data-bs-dismiss="offcanvas">Unboxing</a>
+      </div>
+    </div>
+
+    <main>
+      <section id="hero" class="hero container py-5">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5">
+            <p class="eyebrow">Monthly Analog Ritual</p>
+            <h2 class="display-4 fw-semibold mb-3">Rediscover Your Hands</h2>
+            <p class="lead">
+              Soma delivers tactile, screen-free projects curated by artisan makers,
+              guiding you back to materials, patience, and the simple rhythm of creating.
+            </p>
+            <div class="d-flex gap-3 flex-wrap mt-4">
+              <button class="btn btn-dark px-4 py-2">Reserve the next kit</button>
+              <button class="btn btn-outline-dark px-4 py-2">See what's inside</button>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="hero-video ratio ratio-16x9 rounded-4 overflow-hidden shadow">
+              <video
+                autoplay
+                loop
+                muted
+                playsinline
+                poster="https://images.pexels.com/photos/7408218/pexels-photo-7408218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              >
+                <source
+                  src="https://cdn.coverr.co/videos/coverr-close-up-of-hands-turned-to-clay-1244/1080p.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <p class="small text-muted mt-2">
+              Slow-motion footage of hands shaping clay—filmed with permission from artisan in Oaxaca.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="container py-5">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="feature-card p-4 h-100 rounded-4">
+              <h3>Expertly Curated Projects</h3>
+              <p>
+                Each month’s ritual is designed alongside a master craftsperson—from marbled paper to
+                hand-stitched journals.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="feature-card p-4 h-100 rounded-4">
+              <h3>All Materials Included</h3>
+              <p>
+                Sustainably sourced tools, natural pigments, and tactile guides arrive ready to use—no errands, no screens.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="feature-card p-4 h-100 rounded-4">
+              <h3>A Community of Makers</h3>
+              <p>
+                Share progress in a moderated analog forum, receive letters from fellow subscribers, and join pop-up maker salons.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="unboxing" class="unboxing container py-5">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5">
+            <p class="eyebrow">Kit simulator</p>
+            <h2>Unbox the November Ritual</h2>
+            <p>
+              Tap through each layer of the box to reveal the objects tucked inside. Every item is cataloged with a maker note.
+            </p>
+            <button id="unboxBtn" class="btn btn-dark px-4 py-2 mb-3">Reveal next piece</button>
+            <div class="progress rounded-pill mb-3" style="height: 10px">
+              <div id="unboxProgress" class="progress-bar" role="progressbar" style="width: 0"></div>
+            </div>
+            <p id="unboxStatus" class="fw-semibold text-secondary">Ready to open.</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="unbox-stage rounded-4 p-4">
+              <div class="unbox-card rounded-4 p-4">
+                <h4 id="unboxTitle" class="mb-2">Walnut Keepsake Lid</h4>
+                <p id="unboxDescription" class="mb-1">
+                  Lift the engraved lid to uncover November’s tactility journey.
+                </p>
+                <span id="unboxMaker" class="badge text-bg-light text-uppercase letter-spaced">
+                  Crafted by Soma Studio
+                </span>
+              </div>
+              <div class="d-flex gap-3 mt-4 flex-wrap">
+                <span class="badge rounded-pill kit-pulse">Pulp & Clay</span>
+                <span class="badge rounded-pill kit-pulse">Scent of Cedar</span>
+                <span class="badge rounded-pill kit-pulse">Hand-torn Deckle</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="archive" class="archive container py-5">
+        <div class="d-flex flex-column flex-lg-row align-items-lg-end justify-content-between mb-4">
+          <div>
+            <p class="eyebrow">Past kits</p>
+            <h2>Archive Gallery</h2>
+            <p class="text-secondary">
+              Browse a rotating gallery of previous kits. Select a tile to peek inside its process filmstrip.
+            </p>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-outline-dark active" data-filter="all">All</button>
+            <button class="btn btn-outline-dark" data-filter="textiles">Textiles</button>
+            <button class="btn btn-outline-dark" data-filter="paper">Paper</button>
+            <button class="btn btn-outline-dark" data-filter="clay">Clay</button>
+          </div>
+        </div>
+        <div id="archiveGrid" class="row g-4"></div>
+      </section>
+    </main>
+
+    <footer class="bottom-bar text-center py-3">
+      <small>© 2025 Soma. Developed by <a href="https://rivertheme.com/" target="_blank" rel="noopener noreferrer" class="footer-link">RiverTheme</a></small>
+    </footer>
+
+    <div class="modal fade" id="archiveModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content rounded-4">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="archiveModalLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <p id="archiveModalDescription" class="mb-3"></p>
+            <div class="ratio ratio-16x9 rounded-4 overflow-hidden">
+              <img id="archiveModalImage" src="" alt="Kit detail" class="w-100 h-100 object-fit-cover" />
+            </div>
+            <ul id="archiveModalList" class="mt-3 mb-0"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
