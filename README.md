@@ -40,7 +40,6 @@ Soma/
 ├── styles.css          # Custom CSS styles and animations
 ├── script.js           # JavaScript for interactivity (unboxing & archive)
 ├── README.md           # Project documentation
-│
 └── assets/
     └── favicon.svg     # Site favicon
 ```
